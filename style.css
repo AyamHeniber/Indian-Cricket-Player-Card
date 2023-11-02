@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    height: 100vh;
+    width: 100%;
+    background:#ebe8e8;
+    /* display:; */
+    /* justify-content: center; */
+    
+}
+section>article{
+    margin: auto;
+    height: 100%;
+    width: 80%;
+    background-color: transparent;
+    /* padding-top: 20px; */
+    /* border:5px solid white; */
+    text-align: center;
+}
+section>article>#ttle{
+    /* background-color: aqua; */
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+section>article>#ttle>h1{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    /* text-align: center; */
+
+}
+
+section>article>.container{
+    height: 94%;
+    width: 100%;
+    /* border:5px solid greenyellow; */
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+section>article>.container>.box{
+    flex-basis: 24%;
+    height: 300px;
+    width: 25vw;
+    /* background-color: yellow; */
+    border:1px solid yellowgreen;
+    box-shadow: 5px 5px rgb(80, 79, 79);
+    border-radius: 10px;
+    background: whitesmoke;
+}
+
+section>article>.container>.box:hover{
+    transform:scale(1.05);
+    transition: 1s;
+}
+
+section>article>.container>.box>.profile{
+    height: 90px;
+    width: 100%;
+    /* margin: auto; */
+    /* background-color: aliceblue; */
+}
+
+section>article>.container>.box>.profile img{
+    height: 90px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+section>article>.container>.box>.details{
+    height: 150px;
+    width: 100%;
+    /* background-color: red; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+section>article>.container>.box>.details>h1{
+    font-size: 18px;
+}
+section>article>.container>.box>.details>h2{
+    font-size: 16px;
+    font-weight: lighter;
+}
+section>article>.container>.box>.details>p{
+    font-size: 14px;
+    font-weight: lighter;
+}
+section>article>.container>.box>.btn{
+    height: 30px;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-evenly;
+}
+section>article>.container>.box>.btn>button{
+    height: 100%;
+    width: 90px;
+    font-size: 16px;
+    border-radius: 12px;
+    background: transparent;
+    color: red;
+    box-shadow: 5px 0px yellowgreen;
+}
+section>article>.container>.box>.btn>button:hover{
+    color: red;
+    cursor: pointer;
+}
+section>article>.container>.box>.icons{
+    height: 36px;
+    width: 100%;
+    /* background-color: white; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 20px;
+}
+/* section>article>.container>.box>.icons>fa-brands:hover{ */
+    /* cursor: pointer; */
+/* } */
+section>article>.container>.box>.icons>.fa-facebook{
+    color: blue;
+}
+section>article>.container>.box>.icons>.fa-youtube{
+    color:red;
+}
+section>article>.container>.box>.icons>.fa-instagram{
+
+    background: -webkit-linear-gradient( #3333f0 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* font-weight: bold; */
+
+}
+
+
+
